@@ -1,0 +1,56 @@
+body {
+    background-color: lightpink;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    border: 2px solid pink;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.lovecalculator {
+    margin-top: 20px;
+
+}
+label {
+    display: block;
+    color: darkred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type='text'] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: red;
+}
+button {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 22px;
+    color: red;
+}
